@@ -6,6 +6,8 @@ import { ClienteComponent } from './components/cliente/cliente.component';
 import { TarefasComponent } from './components/tarefas/tarefas.component';
 import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { IbgeComponent } from './components/ibge/ibge.component';
+import { FornecedoresComponent } from './components/fornecedores/fornecedores.component';
+import { FornecedoresDetailsComponent } from './components/fornecedores-details/fornecedores-details.component';
 
 export const routes: Routes = [
 
@@ -16,6 +18,8 @@ export const routes: Routes = [
     {path: 'tarefa', component: TarefasComponent},
     {path: 'pokemon', component: PokemonComponent},
     {path: 'ibge', component: IbgeComponent},
+    {path: 'fornecedores', component: FornecedoresComponent},
+    {path: 'fornecedores/:id', component: FornecedoresDetailsComponent},
     {path: '**', component: HomeComponent}
 
 ];
