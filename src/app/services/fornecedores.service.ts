@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/internal/Observable';
 import { Fornecedores } from '../interfaces/fornecedores';
 
 @Injectable({
@@ -14,7 +14,7 @@ export class FornecedoresService {
   }
 
   //Esta lista virá da API
-  clientes:Fornecedores[] = [];
+  fornecedores:Fornecedores[] = [];
 
   listar():Observable<Fornecedores[]>{
     return this.http.get<Fornecedores[]>(this.FornecedoresUrl) as Observable<Fornecedores[]>

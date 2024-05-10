@@ -14,6 +14,19 @@
       "nome": "matheus",
       "telefone": "22222222",
       "id": "dwEUOw"
+    },
+    {
+      "id": "puB9oH",
+      "nome": "teste",
+      "telefone": "1111111"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "morrarealmadrid",
+      "nome": "Marco Reus",
+      "telefone": "71901062024",
+      "endereco": "Rua Merengue"
     }
   ]
 }
